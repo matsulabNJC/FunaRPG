@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{10F96662-D436-B54D-ACF2-F9A19510A947}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AnimationStateController.cs">
     <Files>
-      <File FileName="Assets/AnimationStateController.cs" Line="1" Column="1" />
+      <File FileName="Assets/MoveController.cs" Line="34" Column="2" />
+      <File FileName="Assets/AnimationStateController.cs" Line="80" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
