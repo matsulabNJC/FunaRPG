@@ -65,7 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\AnimationStateController.cs" />
     <Compile Include="Assets\MoveController.cs" />
-    <None Include="Assets\キャラチップ\readme.txt" />
+    <None Include="Assets\キャラチップ\readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
