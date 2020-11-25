@@ -2370,8 +2370,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1399654985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2416,7 +2414,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 6
   m_Center: {x: 0, y: 0, z: 0}
->>>>>>> f8cd4622aca5d14c833ebdad820e5af3c9e5f6ed
+
 --- !u!1001 &1421118057
 PrefabInstance:
   m_ObjectHideFlags: 0
