@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map2Scene.unity
     guid: 87d87aeecf7484a70897f08e1fc2aa1b
+  - enabled: 1
+    path: Assets/QuizGame/Quiz.unity
+    guid: be19a227c956d428e81f9a10d8059a61
+  - enabled: 1
+    path: Assets/QuizGame/Result.unity
+    guid: cfc0a5fd9a0a54f2ab3a2c769c19e775
+  - enabled: 1
+    path: Assets/QuizGame/Title.unity
+    guid: e49cfec934ea84cfd955698c5e559216
+  - enabled: 1
+    path: Assets/QuizGame/Score.unity
+    guid: 3509b651f4cb34caf9dc41b7631f7a1b
   m_configObjects: {}
