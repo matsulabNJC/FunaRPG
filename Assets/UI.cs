@@ -4,21 +4,19 @@ using UnityEngine;
 
 public class UI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter(Collider other)
     {
-        gameObject.SetActive(false);
+        if (other.CompareTag("Enter"))
+        {
+            GetComponent<Renderer>().enabled = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerExit(Collider other)
     {
-        // 左クリックしたとき、オブジェクト表示
-        if (Input.GetMouseButtonDown(0))
+        if (other.CompareTag("Enter"))
         {
-            gameObject.SetActive(true);
+            GetComponent<Renderer>().enabled = false;
         }
-
-
     }
 }
