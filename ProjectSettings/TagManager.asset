@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enter
   - Enter2
+  - Message
   layers:
   - Default
   - TransparentFX

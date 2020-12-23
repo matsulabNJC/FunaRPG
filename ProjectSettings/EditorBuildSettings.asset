@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Map2Scene.unity
     guid: 87d87aeecf7484a70897f08e1fc2aa1b
   - enabled: 1
+    path: Assets/Scenes/KatoriLab.unity
+    guid: f8d5b8dbb03bd483892af28988a2520a
+  - enabled: 1
     path: Assets/QuizGame/Quiz.unity
     guid: be19a227c956d428e81f9a10d8059a61
   - enabled: 1
