@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/QuizGame/Score.unity
     guid: 3509b651f4cb34caf9dc41b7631f7a1b
+  - enabled: 1
+    path: Assets/Scenes/KatoriLab.unity
+    guid: f8d5b8dbb03bd483892af28988a2520a
   m_configObjects: {}
