@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KatoriLab.unity
     guid: f8d5b8dbb03bd483892af28988a2520a
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: afaa4cc0e19e042d68310023c60ae1ad
   m_configObjects: {}
