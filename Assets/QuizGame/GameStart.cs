@@ -32,7 +32,7 @@ public class GameStart : MonoBehaviour {
 		
 		if (Application.loadedLevelName == "Score") {
 			ResultMgr.SetScoreData(0);
-			Application.LoadLevel ("Title"); 
+			Application.LoadLevel ("Start"); 
 		}
 	}
 
