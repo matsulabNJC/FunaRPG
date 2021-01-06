@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameStart : MonoBehaviour {
 
@@ -14,15 +15,16 @@ public class GameStart : MonoBehaviour {
 	}
 
 	public void NextQuiz(){
-	
+		int Score = ResultMgr.GetScoreData();
 		if (Application.loadedLevelName == "Result") {
 			 
-			if(qCount < 0){
+			if(Score == 0){
 				qCount++;
-				Application.LoadLevel ("Quiz");
+				SceneManager.LoadScene("ゲームオーバー");
 			}else{
 				qCount = 0;
-				Application.LoadLevel ("Score");
+				SceneManager.LoadScene("クリア");
+				//Application.LoadLevel ("Score");
 			}
 		}
 	}
