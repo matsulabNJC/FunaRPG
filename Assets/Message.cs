@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using System.Text.RegularExpressions;
-
+using UnityEngine.SceneManagement;
 public class Message : MonoBehaviour
 {
 
@@ -67,7 +67,8 @@ public class Message : MonoBehaviour
         //　メッセージが終わっているか、メッセージがない場合はこれ以降何もしない
         if (isEndMessage || allMessage == null)
         {
-            return;
+            SceneManager.LoadScene("Quiz");
+            
         }
 
         //　1回に表示するメッセージを表示していない	
