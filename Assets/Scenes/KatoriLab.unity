@@ -650,19 +650,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
-<<<<<<< HEAD
+
 --- !u!50 &808581041
 Rigidbody2D:
   serializedVersion: 4
-=======
---- !u!1 &854400191
-GameObject:
->>>>>>> 0b9a10fbf6051390e1909061441b23014b1d2edd
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
+
   m_GameObject: {fileID: 808581034}
   m_BodyType: 1
   m_Simulated: 1
@@ -677,7 +674,6 @@ GameObject:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 854400193}
@@ -753,7 +749,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> 0b9a10fbf6051390e1909061441b23014b1d2edd
 --- !u!1 &901302513
 GameObject:
   m_ObjectHideFlags: 0
