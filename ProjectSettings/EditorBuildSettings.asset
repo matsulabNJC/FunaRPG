@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\u30BF\u30A4\u30C8\u30EB.unity"
     guid: 0a5adf43505974d958b332ef9cddbf33
+  - enabled: 1
+    path: Assets/Scenes/map6bld.unity
+    guid: 5987cb883f3f745af84959f59b1ea9b3
   m_configObjects: {}

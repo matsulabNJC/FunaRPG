@@ -20,6 +20,11 @@ public class nineDirector : MonoBehaviour
                 SceneManager.LoadScene("Map2Scene");
         }
 
+        if (collision.gameObject.tag == "Enter3")
+        {
+                SceneManager.LoadScene("map6bld");
+        }
+
         }
     
 }
