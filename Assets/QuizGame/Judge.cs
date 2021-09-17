@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class Judge : MonoBehaviour {
-	 
+
 	//選択したボタンのテキストラベルと正解のテキストを比較して正誤を判定
 	public void JudgeAnswer(){
 		//正解のデータをテキストでセットする
@@ -14,6 +14,7 @@ public class Judge : MonoBehaviour {
 		if (selectedBtn.text == answerText) {
 			//選択したデータをグローバル変数に保存
 			ResultMgr.SetJudgeData ("正解");
+			// GetComponent<AudioSource>().Play();　音声
 			Application.LoadLevel ("Result");
 		} else {
 			//選択したデータをグローバル変数に保存
