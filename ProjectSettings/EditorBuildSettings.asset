@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/map6bld.unity
     guid: 5987cb883f3f745af84959f59b1ea9b3
+  - enabled: 1
+    path: Assets/Scenes/Laboratory6.unity
+    guid: fdfe65d5733c744daa2a242d1f3f32bd
   m_configObjects: {}
