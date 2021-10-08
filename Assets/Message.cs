@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using UnityEngine.SceneManagement;
 public class Message : MonoBehaviour
 {
+  // public bool DontDestroyEnabled = true;
 
     //　メッセージUI
     private Text messageText;
@@ -60,6 +61,12 @@ public class Message : MonoBehaviour
         messageText = GetComponentInChildren<Text>();
         messageText.text = "";
         SetMessage(allMessage);
+
+      //   if (DontDestroyEnabled) {
+      //     // Sceneを遷移してもオブジェクトが消えないようにする
+      //     DontDestroyOnLoad (this);
+      // }
+
     }
 
     void Update()
@@ -68,10 +75,10 @@ public class Message : MonoBehaviour
         if (isEndMessage || allMessage == null)
         {
             SceneManager.LoadScene("Quiz");
-            
+
         }
 
-        //　1回に表示するメッセージを表示していない	
+        //　1回に表示するメッセージを表示していない
         if (!isOneMessage)
         {
             //　テキスト表示時間を経過したらメッセージを追加
