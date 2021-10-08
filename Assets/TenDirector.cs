@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement; // LoadSceneを使うために必要!!
 
 public class TenDirector : MonoBehaviour
 {
+    
+    
     void Update()
     {
     }
