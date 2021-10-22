@@ -36,7 +36,7 @@ public class TimerController : MonoBehaviour
             else {
                 Debug.Log("Clear");
                 timerText.text = "Clear!";
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("Start");
             }
         }
         else if(n==2){
