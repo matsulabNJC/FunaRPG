@@ -24,7 +24,10 @@ public class nineDirector : MonoBehaviour
         {
                 SceneManager.LoadScene("map6bld");
         }
-
+        if (collision.gameObject.tag == "Enter4")
+        {
+            SceneManager.LoadScene("Syokudou");
         }
+    }
     
 }
