@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class CardController : MonoBehaviour
 {
     private Vector3 screenPoint;
     private Vector3 offset;
     public float speed;
-
+    public int n;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,9 +39,14 @@ public class CardController : MonoBehaviour
         transform.position = currentPosition;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
+        n = 1;
         Debug.Log("ƒ^ƒbƒ`");
-        SceneManager.LoadScene("SampleScene");
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        n = 2;
+        Debug.Log("—£‚ê‚½");
     }
 }

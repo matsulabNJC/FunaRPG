@@ -4,5 +4,50 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MapScene.unity
+    guid: 71cd37340edd54b208bb0f80c64e3eb8
+  - enabled: 1
+    path: Assets/Scenes/Map2Scene.unity
+    guid: 87d87aeecf7484a70897f08e1fc2aa1b
+  - enabled: 1
+    path: Assets/Scenes/KatoriLab.unity
+    guid: f8d5b8dbb03bd483892af28988a2520a
+  - enabled: 1
+    path: Assets/QuizGame/Quiz.unity
+    guid: be19a227c956d428e81f9a10d8059a61
+  - enabled: 1
+    path: Assets/QuizGame/Result.unity
+    guid: cfc0a5fd9a0a54f2ab3a2c769c19e775
+  - enabled: 1
+    path: Assets/QuizGame/Title.unity
+    guid: e49cfec934ea84cfd955698c5e559216
+  - enabled: 1
+    path: Assets/QuizGame/Score.unity
+    guid: 3509b651f4cb34caf9dc41b7631f7a1b
+  - enabled: 1
+    path: Assets/Scenes/KatoriLab.unity
+    guid: f8d5b8dbb03bd483892af28988a2520a
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: afaa4cc0e19e042d68310023c60ae1ad
+  - enabled: 1
+    path: "Assets/Scenes/\u30AF\u30EA\u30A2.unity"
+    guid: f60655920590540c195d158232dd94ee
+  - enabled: 1
+    path: "Assets/Scenes/\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC.unity"
+    guid: 10dc7b5088bc3423596dd4e6970ec9cb
+  - enabled: 1
+    path: Assets/Scenes/Enter.unity
+    guid: 0a5adf43505974d958b332ef9cddbf33
+  - enabled: 1
+    path: Assets/Scenes/map6bld.unity
+    guid: 5987cb883f3f745af84959f59b1ea9b3
+  - enabled: 1
+    path: Assets/Scenes/Laboratory6.unity
+    guid: fdfe65d5733c744daa2a242d1f3f32bd
   m_configObjects: {}
