@@ -1457,8 +1457,8 @@ GameObject:
   - component: {fileID: 1847360404}
   - component: {fileID: 1847360403}
   - component: {fileID: 1847360402}
-  - component: {fileID: 1847360406}
   - component: {fileID: 1847360405}
+  - component: {fileID: 1847360406}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1543,7 +1543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27aa258673c4848b989836e9be0066ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DontDestroyEnabled: 1
+  testBGM: {fileID: 0}
+  OKmusic: {fileID: 0}
 --- !u!82 &1847360406
 AudioSource:
   m_ObjectHideFlags: 0
