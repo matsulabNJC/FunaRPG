@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/QuizGame/Result.unity
     guid: cfc0a5fd9a0a54f2ab3a2c769c19e775
   - enabled: 1
+    path: Assets/Scenes/Syokudou.unity
+    guid: 61e7f99d0b300b047a72388aeb009417
+  - enabled: 1
+    path: Assets/Scenes/Syokudou_2.unity
+    guid: a571e3c7bb327644286f458346af0a7c
+  - enabled: 1
     path: Assets/QuizGame/Title.unity
     guid: e49cfec934ea84cfd955698c5e559216
   - enabled: 1
@@ -42,7 +48,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC.unity"
     guid: 10dc7b5088bc3423596dd4e6970ec9cb
   - enabled: 1
-    path: Assets/Scenes/Syokudou.unity
+    path: Assets/Scenes/Enter.unity
     guid: 0a5adf43505974d958b332ef9cddbf33
   - enabled: 1
     path: Assets/Scenes/map6bld.unity
