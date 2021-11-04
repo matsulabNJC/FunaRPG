@@ -12,6 +12,7 @@ public class TimerController : MonoBehaviour
     int seconds;
     GameObject Square;
     CardController script;
+    private float step_time;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class TimerController : MonoBehaviour
         Square = GameObject.Find("Square");
         script = Square.GetComponent<CardController>();
         total = totalTime;
+        step_time = 0.0f;
     }
 
     // Update is called once per frame
@@ -36,7 +38,11 @@ public class TimerController : MonoBehaviour
             else {
                 Debug.Log("Clear");
                 timerText.text = "Clear!";
-                SceneManager.LoadScene("Start");
+                step_time += Time.deltaTime;
+                GetComponent<AudioSource>().Play();
+                if (step_time >= 3.0f){
+                      SceneManager.LoadScene("Start");
+              }
             }
         }
         else if(n==2){
