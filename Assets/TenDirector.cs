@@ -17,5 +17,17 @@ public class TenDirector : MonoBehaviour
             {
             SceneManager.LoadScene("SampleScene");
             }
+        if (collision.gameObject.tag == "Enter4")
+        {
+            SceneManager.LoadScene("SampleScene");
         }
+        if (collision.gameObject.tag == "Enter5")
+        {
+            SceneManager.LoadScene("Syokudou_2");
+        }
+        if (collision.gameObject.tag == "Enter6")
+        {
+            SceneManager.LoadScene("Syokudou");
+        }
+    }
 }
