@@ -251,6 +251,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2002494, guid: 0e5d2fb6f50aa46ae8f425c6d45b36ee, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2002494, guid: 0e5d2fb6f50aa46ae8f425c6d45b36ee, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2002494, guid: 0e5d2fb6f50aa46ae8f425c6d45b36ee, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.9245283
+      objectReference: {fileID: 0}
     - target: {fileID: 11415370, guid: 0e5d2fb6f50aa46ae8f425c6d45b36ee, type: 3}
       propertyPath: m_Text
       value: "\u56DE\u7B54\uFF11\n"
