@@ -2491,7 +2491,6 @@ GameObject:
   m_Component:
   - component: {fileID: 536444710}
   - component: {fileID: 536444709}
-  - component: {fileID: 536444708}
   - component: {fileID: 536444707}
   - component: {fileID: 536444706}
   m_Layer: 0
@@ -2548,25 +2547,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.8, y: 8}
   m_EdgeRadius: 0
---- !u!253 &536444708
-BuoyancyEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536444705}
-  m_Enabled: 0
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_SurfaceLevel: 0
-  m_Density: 2
-  m_LinearDrag: 5
-  m_AngularDrag: 5
-  m_FlowAngle: 0
-  m_FlowMagnitude: 0
-  m_FlowVariation: 0
 --- !u!212 &536444709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2626,8 +2606,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536444705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.3203, y: 0.2708, z: 0}
-  m_LocalScale: {x: 1.0117, y: 1.0890242, z: 1}
+  m_LocalPosition: {x: 15.28, y: 0.1577, z: 0}
+  m_LocalScale: {x: 0.93398577, y: 1.1172811, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 74

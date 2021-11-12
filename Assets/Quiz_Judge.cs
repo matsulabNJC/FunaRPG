@@ -1,13 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
-public class Judge : MonoBehaviour {
+public class Quiz_Judge : MonoBehaviour {
 
 	//選択したボタンのテキストラベルと正解のテキストを比較して正誤を判定
 	public void JudgeAnswer(){
 		//正解のデータをテキストでセットする
-		string answerText = "A+1=A";
+		string answerText = "唐揚げ定食";
 		//選択したボタンのテキストラベルを取得する
 		Text selectedBtn = this.GetComponentInChildren<Text> ();
 

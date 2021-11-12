@@ -891,7 +891,7 @@ GameObject:
   - component: {fileID: 1095032985}
   m_Layer: 0
   m_Name: "\u673A"
-  m_TagString: Ticket
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

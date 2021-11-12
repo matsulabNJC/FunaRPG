@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; // LoadSceneを使うために必要!!
 
-public class NewBaseType
+public class TenDirector:MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -23,10 +23,11 @@ public class NewBaseType
         if (collision.gameObject.tag == "Enter6")
         {
             SceneManager.LoadScene("Syokudou");
-            if (collision.gameObject.tag == "Ticket")
-            {
-                SceneManager.LoadScene("Ticket");
-            }
         }
+        if (collision.gameObject.tag == "Ticket")
+         {
+          SceneManager.LoadScene("Quiz_ticket");
+         }
+        
     }
 }
