@@ -938,7 +938,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9a1de00efd05346ee9b0b55cb0d30988, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3bbab3a68784d4f18a2c2db62eb04680, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1544,7 +1544,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: efedda4016eb54b5d8b819b6863420bc, type: 3}
     m_FontSize: 100
     m_FontStyle: 2
     m_BestFit: 0

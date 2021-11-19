@@ -23,15 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/QuizGame/Result.unity
     guid: cfc0a5fd9a0a54f2ab3a2c769c19e775
-  - enabled: 1
-    path: Assets/Scenes/Syokudou.unity
-    guid: 61e7f99d0b300b047a72388aeb009417
-  - enabled: 1
-    path: Assets/Scenes/Syokudou_2.unity
-    guid: a571e3c7bb327644286f458346af0a7c
-  - enabled: 1
-    path: Assets/QuizGame/Title.unity
-    guid: e49cfec934ea84cfd955698c5e559216
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/QuizGame/Score.unity
     guid: 3509b651f4cb34caf9dc41b7631f7a1b
@@ -56,4 +50,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Laboratory6.unity
     guid: fdfe65d5733c744daa2a242d1f3f32bd
+  - enabled: 1
+    path: Assets/Scenes/Ticket.unity
+    guid: c58e3752188aa174880abf00cb494708
+  - enabled: 1
+    path: Assets/Scenes/Syokudou_2.unity
+    guid: a571e3c7bb327644286f458346af0a7c
+  - enabled: 1
+    path: Assets/Scenes/Syokudou.unity
+    guid: 61e7f99d0b300b047a72388aeb009417
+  - enabled: 1
+    path: Assets/Scenes/Quiz_ticket.unity
+    guid: b355f386a9ace774588a924d5c7decfe
   m_configObjects: {}

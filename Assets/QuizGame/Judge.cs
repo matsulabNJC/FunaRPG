@@ -4,10 +4,10 @@ using UnityEngine.UI;
 
 public class Judge : MonoBehaviour {
 
-	//選択したボタンのテキストラベルと正解のテキストを比較して正誤を判定
+		//選択したボタンのテキストラベルと正解のテキストを比較して正誤を判定
 	public void JudgeAnswer(){
 		//正解のデータをテキストでセットする
-		string answerText = "A+1＝A";
+		string answerText = ("A+1＝A");
 		//選択したボタンのテキストラベルを取得する
 		Text selectedBtn = this.GetComponentInChildren<Text> ();
 
