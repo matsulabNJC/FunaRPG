@@ -11,6 +11,8 @@ TagManager:
   - Enter4
   - Enter5
   - Enter6
+  - Syokukennki
+  - Ticket
   layers:
   - Default
   - TransparentFX
