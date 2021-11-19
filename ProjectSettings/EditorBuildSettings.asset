@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Syokudou.unity
     guid: 61e7f99d0b300b047a72388aeb009417
   - enabled: 1
-    path: Assets/Scenes/Syokudou_2.unity
+    path: Assets/Scenes/LaboratoryQuiz.unity
     guid: a571e3c7bb327644286f458346af0a7c
   - enabled: 1
     path: Assets/QuizGame/Title.unity
@@ -59,4 +59,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LaboratoryQuiz.unity
     guid: a571e3c7bb327644286f458346af0a7c
+  - enabled: 1
+    path: Assets/QuizGame/Quiz2.unity
+    guid: 952ed5b9412b54c7dbcc80221cb1e39a
+  - enabled: 1
+    path: Assets/QuizGame/ResultLabMaru.unity
+    guid: ee30afa3e2f044c4bbf170d4d668640a
+  - enabled: 1
+    path: Assets/Scenes/SeikaiScene.unity
+    guid: a08f1b22fe2494d4f8dcb307ce288329
+  - enabled: 1
+    path: Assets/Scenes/MachigaiScene.unity
+    guid: 0e45c347ab6e64cf3a6c133bd2d85111
+  - enabled: 1
+    path: Assets/QuizGame/ResultLabButsu.unity
+    guid: b2dc1b8f528c04b4d82787e85e642d33
   m_configObjects: {}
