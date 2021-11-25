@@ -6,41 +6,59 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/MapScene.unity
-    guid: 71cd37340edd54b208bb0f80c64e3eb8
-  - enabled: 1
-    path: Assets/Scenes/Map2Scene.unity
-    guid: 87d87aeecf7484a70897f08e1fc2aa1b
+    path: Assets/Scenes/Enter.unity
+    guid: 0a5adf43505974d958b332ef9cddbf33
   - enabled: 1
     path: Assets/Scenes/KatoriLab.unity
     guid: f8d5b8dbb03bd483892af28988a2520a
   - enabled: 1
-    path: Assets/QuizGame/Quiz.unity
-    guid: be19a227c956d428e81f9a10d8059a61
-  - enabled: 1
-    path: Assets/QuizGame/Result.unity
-    guid: cfc0a5fd9a0a54f2ab3a2c769c19e775
-  - enabled: 1
-    path: Assets/Scenes/Syokudou.unity
-    guid: 61e7f99d0b300b047a72388aeb009417
+    path: Assets/Scenes/Laboratory6.unity
+    guid: fdfe65d5733c744daa2a242d1f3f32bd
   - enabled: 1
     path: Assets/Scenes/LaboratoryQuiz.unity
     guid: a571e3c7bb327644286f458346af0a7c
   - enabled: 1
-    path: Assets/QuizGame/Title.unity
-    guid: e49cfec934ea84cfd955698c5e559216
+    path: Assets/Scenes/MachigaiScene.unity
+    guid: 0e45c347ab6e64cf3a6c133bd2d85111
   - enabled: 1
-    path: Assets/QuizGame/Score.unity
-    guid: 3509b651f4cb34caf9dc41b7631f7a1b
+    path: Assets/Scenes/Map2Scene.unity
+    guid: 87d87aeecf7484a70897f08e1fc2aa1b
   - enabled: 1
-    path: Assets/Scenes/KatoriLab.unity
-    guid: f8d5b8dbb03bd483892af28988a2520a
+    path: Assets/Scenes/map6bld.unity
+    guid: 5987cb883f3f745af84959f59b1ea9b3
+  - enabled: 1
+    path: Assets/Scenes/MapScene.unity
+    guid: 71cd37340edd54b208bb0f80c64e3eb8
+  - enabled: 1
+    path: Assets/Scenes/Quiz_ticket.unity
+    guid: b355f386a9ace774588a924d5c7decfe
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SeikaiScene.unity
+    guid: a08f1b22fe2494d4f8dcb307ce288329
   - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: afaa4cc0e19e042d68310023c60ae1ad
+  - enabled: 1
+    path: Assets/Scenes/Syokudou.unity
+    guid: 61e7f99d0b300b047a72388aeb009417
+  - enabled: 1
+    path: Assets/Scenes/TalkWindow.unity
+    guid: 4216c6b687a50c24c864fb1a1792216d
+  - enabled: 1
+    path: Assets/Scenes/Syokudou_2.unity
+    guid: 699a30910e6924660b8bec62e3eb3a00
+  - enabled: 1
+    path: Assets/Scenes/Ticket 2.unity
+    guid: 4c1c82352caa9ff4887e58562dc606eb
+  - enabled: 1
+    path: Assets/Scenes/Ticket.unity
+    guid: c58e3752188aa174880abf00cb494708
+  - enabled: 1
+    path: Assets/Scenes/TalkWindowSampleScene.unity
+    guid: eb6563ae933724248a5ff355c83843f0
   - enabled: 1
     path: "Assets/Scenes/\u30AF\u30EA\u30A2.unity"
     guid: f60655920590540c195d158232dd94ee
@@ -48,41 +66,24 @@ EditorBuildSettings:
     path: "Assets/Scenes/\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC.unity"
     guid: 10dc7b5088bc3423596dd4e6970ec9cb
   - enabled: 1
-    path: Assets/Scenes/Enter.unity
-    guid: 0a5adf43505974d958b332ef9cddbf33
+    path: "Assets/Scenes/\u30BF\u30A4\u30C8\u30EB.unity"
+    guid: 6e3a7abefd2e1e548b021ea7195ba5df
   - enabled: 1
-    path: Assets/Scenes/map6bld.unity
-    guid: 5987cb883f3f745af84959f59b1ea9b3
+    path: "Assets/Scenes/\u98DF\u5802.unity"
+    guid: b480bd2c8058748a9a666e6d126041c0
   - enabled: 1
-    path: Assets/Scenes/Laboratory6.unity
-    guid: fdfe65d5733c744daa2a242d1f3f32bd
+    path: Assets/QuizGame/Quiz.unity
+    guid: be19a227c956d428e81f9a10d8059a61
   - enabled: 1
-    path: Assets/Scenes/Ticket.unity
-    guid: c58e3752188aa174880abf00cb494708
-  - enabled: 1
-    path: Assets/Scenes/Syokudou_2.unity
-    guid: a571e3c7bb327644286f458346af0a7c
-  - enabled: 1
-<<<<<<< HEAD
     path: Assets/QuizGame/Quiz2.unity
     guid: 952ed5b9412b54c7dbcc80221cb1e39a
   - enabled: 1
-    path: Assets/QuizGame/ResultLabMaru.unity
-    guid: ee30afa3e2f044c4bbf170d4d668640a
-  - enabled: 1
-    path: Assets/Scenes/SeikaiScene.unity
-    guid: a08f1b22fe2494d4f8dcb307ce288329
-  - enabled: 1
-    path: Assets/Scenes/MachigaiScene.unity
-    guid: 0e45c347ab6e64cf3a6c133bd2d85111
+    path: Assets/QuizGame/Result.unity
+    guid: cfc0a5fd9a0a54f2ab3a2c769c19e775
   - enabled: 1
     path: Assets/QuizGame/ResultLabButsu.unity
     guid: b2dc1b8f528c04b4d82787e85e642d33
-=======
-    path: Assets/Scenes/Syokudou.unity
-    guid: 61e7f99d0b300b047a72388aeb009417
   - enabled: 1
-    path: Assets/Scenes/Quiz_ticket.unity
-    guid: b355f386a9ace774588a924d5c7decfe
->>>>>>> e7e05eb863e4ebfb83ce048efe58e05d4f99e4ac
+    path: Assets/QuizGame/ResultLabMaru.unity
+    guid: ee30afa3e2f044c4bbf170d4d668640a
   m_configObjects: {}
