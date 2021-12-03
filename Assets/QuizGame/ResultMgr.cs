@@ -21,7 +21,7 @@ public class ResultMgr : MonoBehaviour {
 			//現在描画している画像を取得
 			SpriteRenderer judgeImage = GameObject.Find ("JudgeUI/JudgeImage").GetComponent<SpriteRenderer> ();
 			//Resourcesから指定した名前の画像データをロード
-			Sprite loadingImage = Resources.Load<Sprite> ("batsu");
+			Sprite loadingImage = Resources.Load<Sprite> ("batsu2");
 			//画像を置換
 			judgeImage.sprite = loadingImage;
 			//表示テキストを取得して置換
