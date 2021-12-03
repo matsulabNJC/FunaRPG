@@ -27,7 +27,7 @@ public class ButtonScript1 : MonoBehaviour
             time = false;
           }
           Debug.Log("Invokeセットしました。");
-          Invoke("CallFunction",0.8f);
+          Invoke("CallFunction",0.6f);
           }
       }
       void CallFunction(){
