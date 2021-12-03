@@ -1,21 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class MapScene : MonoBehaviour
+public class KatoriLabQuiz : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        if(Data.Instance.referer=="KatoriLab"){
-            transform.position=new Vector3(23.8f,0.2f,0);
-        }
-        Data.Instance.referer="MapScene";
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("KatoriLab");
+        }
     }
 }

@@ -25,6 +25,7 @@ public class GameStart : MonoBehaviour {
 				qCount = 0;
 				SceneManager.LoadScene("クリア");
 				//Application.LoadLevel ("Score");
+			
 			}
 		}
 	}

@@ -16,7 +16,9 @@ public class SampleScene : MonoBehaviour
         else if(Data.Instance.referer=="Map2Scene"){
             transform.position=new Vector3(-33.69f,10.57f,0);
         }
-        
+        else if(Data.Instance.referer=="Syokudou"){
+            transform.position=new Vector3(-8.96f,-12.75f,0);
+        }
         Data.Instance.referer="SampleScene";
     }
 
