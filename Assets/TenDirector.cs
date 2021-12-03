@@ -28,6 +28,9 @@ public class TenDirector:MonoBehaviour
          {
           SceneManager.LoadScene("Quiz_ticket");
          }
-        
+        if (collision.gameObject.tag == "Ticket_job")
+         {
+          SceneManager.LoadScene("Ticket 2");
+         }
     }
 }
