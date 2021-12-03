@@ -1709,7 +1709,7 @@ GameObject:
   - component: {fileID: 409921965}
   m_Layer: 0
   m_Name: door_close (2)
-  m_TagString: Enter4
+  m_TagString: Enter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2233,7 +2233,7 @@ GameObject:
   - component: {fileID: 584340727}
   m_Layer: 0
   m_Name: door_close (1)
-  m_TagString: Enter4
+  m_TagString: Enter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6500,7 +6500,7 @@ GameObject:
   - component: {fileID: 2128034580}
   m_Layer: 0
   m_Name: door_close (3)
-  m_TagString: Enter5
+  m_TagString: Enter6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6684,5 +6684,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: pipo-charachip021a_0
       objectReference: {fileID: 0}
+    - target: {fileID: 1325595620512034042, guid: abef6aaa6268b7146ab3a8a31af21698,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abef6aaa6268b7146ab3a8a31af21698, type: 3}
+--- !u!1 &6750611766616064397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1325595620512034041, guid: abef6aaa6268b7146ab3a8a31af21698,
+    type: 3}
+  m_PrefabInstance: {fileID: 6750611766616064396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6750611766616064398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750611766616064397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a723829c85699489e91978b09e9c60de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
