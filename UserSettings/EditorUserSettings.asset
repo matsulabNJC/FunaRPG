@@ -9,31 +9,40 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036cd6d3e992d8c8623d28393930
       flags: 0
     RecentlyUsedScenePath-1:
-      value: 22424703114646680e0b0227036cdcf2c494fbf6afcbe6b3cfe39ed03e63d7c86104eaa7f234362820
+      value: 224247031146466a18071605112e5a5f24120b3f203c68252320092a
       flags: 0
     RecentlyUsedScenePath-2:
-      value: 22424703114646680e0b0227036cdcf2d994fbe0afcae47e38271427fb
+      value: 22424703114646680e0b0227036c6c0417050c6439262f2434
       flags: 0
     RecentlyUsedScenePath-3:
-      value: 224247031146466a18071605112e5a5f27021130623d28393930
+      value: 22424703114646680e0b0227036c741102180a230029247e38271427fb
       flags: 0
-    RecentlyUsedScenePath-4:
+    RecentlyUsedScenePath-2:
       value: 22424703114646680e0b0227036c7a1e02120a6439262f2434
       flags: 0
+    RecentlyUsedScenePath-3:
+      value: 22424703114646680e0b0227036c6c09191c0d2e233d68252320092a
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c6c09191c0d2e233d1962633c133af6f9
+      flags: 0
     RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c7211151f112d2d2115332827187df7ee3d2cfb
+      flags: 0
+    RecentlyUsedScenePath-6:
       value: 22424703114646680e0b0227036c731114180a2b382734297b67083debf42d
       flags: 0
     RecentlyUsedScenePath-6:
       value: 22424703114646680e0b0227036c721106241b2f222d68252320092a
       flags: 0
     RecentlyUsedScenePath-7:
-      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
+      value: 22424703114646680e0b0227036c721106452b292926237e38271427fb
       flags: 0
     RecentlyUsedScenePath-8:
-      value: 22424703114646680e0b0227036c741102180a230029247e38271427fb
+      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
       flags: 0
     RecentlyUsedScenePath-9:
-      value: 22424703114646680e0b0227036c6c0417050c6439262f2434
+      value: 22424703114646680e0b0227036c521106411a262866333e243d04
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
@@ -48,4 +57,4 @@ EditorUserSettings:
   m_VCProjectOverlayIcons: 1
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
-  m_VCAllowAsyncUpdate: 0
+  m_VCAllowAsyncUpdate: 1
