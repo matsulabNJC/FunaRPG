@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Quiz_Judge : MonoBehaviour {
+	public static bool Bool;
     //選択したボタンのテキストラベルと正解のテキストを比較して正誤を判定
     /*public void JudgeAnswer(){
         //正解のデータをテキストでセットする
@@ -22,9 +23,11 @@ public class Quiz_Judge : MonoBehaviour {
         }
     }*/
     public void JudgeAnswer1(){
-        SceneManager.LoadScene("Syokudou_2");
+		Bool=true;
+        SceneManager.LoadScene("Ticket");
     }
     public void JudgeAnswer2(){
+		Bool=false;
         SceneManager.LoadScene("Syokudou_2");
     }
 }

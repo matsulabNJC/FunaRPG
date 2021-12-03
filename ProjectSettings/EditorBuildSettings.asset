@@ -84,6 +84,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TalkWindow.unity
     guid: 4216c6b687a50c24c864fb1a1792216d
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/TalkWindowSampleScene.unity
     guid: eb6563ae933724248a5ff355c83843f0
   - enabled: 1
@@ -92,4 +93,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MachigaiScene.unity
     guid: 0e45c347ab6e64cf3a6c133bd2d85111
+=======
+    path: Assets/Scenes/Quiz_ticket.unity
+    guid: b355f386a9ace774588a924d5c7decfe
+<<<<<<< HEAD
+  - enabled: 1
+    path: Assets/Scenes/Ticket 2.unity
+    guid: 4c1c82352caa9ff4887e58562dc606eb
+=======
+>>>>>>> e7e05eb863e4ebfb83ce048efe58e05d4f99e4ac
+>>>>>>> dc8c81e3bfb40b39ece5af9c9f47e6d05be27071
+>>>>>>> 58897cdfb861c025b2c6b735b680972d9a65cd54
   m_configObjects: {}

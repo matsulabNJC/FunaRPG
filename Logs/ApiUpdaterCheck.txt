@@ -197,6 +197,16 @@ C# parse time         : 445ms
 candidates check time : 68ms
 console write time    : 1ms
 
+<<<<<<< HEAD
+[api-updater (non-obsolete-error-filter)] 2021/11/25 14:33:02 : Starting C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 2435.9818ms
+moved types parse time: 144ms
+candidates parse time : 3ms
+C# parse time         : 566ms
+candidates check time : 89ms
+=======
 [api-updater (non-obsolete-error-filter)] 2021/11/19 16:36:19 : Starting C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] Exception caught while loading types from C:\Users\m1017\OneDrive\ドキュメント\GitHub\FunaRPG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll (some types may not be loaded)
 	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
@@ -212,6 +222,7 @@ moved types parse time: 102ms
 candidates parse time : 2ms
 C# parse time         : 437ms
 candidates check time : 67ms
+>>>>>>> dc8c81e3bfb40b39ece5af9c9f47e6d05be27071
 console write time    : 2ms
 
 [api-updater (non-obsolete-error-filter)] 2021/11/25 3:28:54 : Starting C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
