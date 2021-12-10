@@ -28,6 +28,7 @@ public class ResultMgr : MonoBehaviour {
 			Text judgeLabel = GameObject.Find ("JudgeUI/JudgeLabel").GetComponent<Text> ();
 			judgeLabel.text = "不正解";
 			 sound02.PlayOneShot(sound02.clip);
+			 g_scoreData=0;
 
 		} else if (g_judgeData == "正解") {
 			//正解であればScoreを足す

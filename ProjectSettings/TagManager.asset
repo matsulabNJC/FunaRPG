@@ -11,6 +11,11 @@ TagManager:
   - Enter4
   - Enter5
   - Enter6
+  - Enter7
+  - Ticket
+  - Syokukennki
+  - Enter8
+  - Quiz
   layers:
   - Default
   - TransparentFX

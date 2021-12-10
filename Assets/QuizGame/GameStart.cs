@@ -20,11 +20,12 @@ public class GameStart : MonoBehaviour {
 			 
 			if(Score == 0){
 				qCount++;
-				SceneManager.LoadScene("ゲームオーバー");
+				SceneManager.LoadScene("KatoriLabQuizBatsu");
 			}else{
 				qCount = 0;
-				SceneManager.LoadScene("クリア");
+				SceneManager.LoadScene("KatoriLabQuizMaru");
 				//Application.LoadLevel ("Score");
+			
 			}
 		}
 	}
