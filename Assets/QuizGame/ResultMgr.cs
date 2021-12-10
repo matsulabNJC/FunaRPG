@@ -21,13 +21,14 @@ public class ResultMgr : MonoBehaviour {
 			//現在描画している画像を取得
 			SpriteRenderer judgeImage = GameObject.Find ("JudgeUI/JudgeImage").GetComponent<SpriteRenderer> ();
 			//Resourcesから指定した名前の画像データをロード
-			Sprite loadingImage = Resources.Load<Sprite> ("batsu");
+			Sprite loadingImage = Resources.Load<Sprite> ("batsu2");
 			//画像を置換
 			judgeImage.sprite = loadingImage;
 			//表示テキストを取得して置換
 			Text judgeLabel = GameObject.Find ("JudgeUI/JudgeLabel").GetComponent<Text> ();
 			judgeLabel.text = "不正解";
 			 sound02.PlayOneShot(sound02.clip);
+			 g_scoreData=0;
 
 		} else if (g_judgeData == "正解") {
 			//正解であればScoreを足す
