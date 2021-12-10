@@ -8,16 +8,16 @@ public class SampleScene : MonoBehaviour
     void Start()
     {
         if(Data.Instance.referer=="map6bld"){
-            transform.position=new Vector3(-8.5f,-6.1f,0);
+            transform.position=new Vector3(0,17.9f,0);
         }
         else if(Data.Instance.referer=="MapScene"){
-            transform.position=new Vector3(13.6f,-8.84f,0);
+            transform.position=new Vector3(27.2f,10,0);
         }
         else if(Data.Instance.referer=="Map2Scene"){
-            transform.position=new Vector3(-33.69f,10.57f,0);
+            transform.position=new Vector3(-34,30,0);
         }
         else if(Data.Instance.referer=="Syokudou"){
-            transform.position=new Vector3(-8.96f,-12.75f,0);
+            transform.position=new Vector3(-3,-3.6f,0);
         }
         Data.Instance.referer="SampleScene";
     }
