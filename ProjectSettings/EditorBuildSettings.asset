@@ -86,4 +86,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/QuizGame/ResultLabMaru.unity
     guid: ee30afa3e2f044c4bbf170d4d668640a
+  - enabled: 1
+    path: Assets/Scenes/Map2Scene2.unity
+    guid: f95a335a700f64a8db9b6989ac581ef4
+  - enabled: 1
+    path: Assets/Scenes/Map2Scene4.unity
+    guid: 3f99e7d77cbe34089884119d57ad9cd9
+  - enabled: 1
+    path: Assets/Scenes/Map2Scene3.unity
+    guid: ee29ae7ad5c214a7fa23bb512c925905
+  - enabled: 1
+    path: Assets/Information/InformationQuiz.unity
+    guid: d5ac61100adfd464a9e2b921120af541
+  - enabled: 1
+    path: Assets/Information/KomadaInf.unity
+    guid: 0c4d4ddf9b45b4c9190f684044749c5f
+  - enabled: 1
+    path: Assets/Information/Tandai.unity
+    guid: 30c8ed1051b634c49bddc5845a2d94e1
+  - enabled: 1
+    path: Assets/Information/Transfer.unity
+    guid: e83d23e4626b94c989020e966aaf439d
+  - enabled: 1
+    path: Assets/Scenes/Information.unity
+    guid: f49d8069f17ca4ccc8e66d777d7bfa76
   m_configObjects: {}

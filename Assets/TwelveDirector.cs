@@ -15,5 +15,27 @@ public class TwelveDirector : MonoBehaviour
         {
             SceneManager.LoadScene("LaboratoryQuiz");
         }
+        if (collision.gameObject.tag == "Map2Scene")
+        {
+            SceneManager.LoadScene("Map2Scene2");
+        }
+        if (collision.gameObject.tag == "Map2Scene2_1")
+        {
+            SceneManager.LoadScene("Map2Scene3");
+        }
+        if (collision.gameObject.tag == "Map2Scene2_2")
+        {
+            SceneManager.LoadScene("Map2Scene");
+        }
+        if (collision.gameObject.tag == "Map2Scene3_1")
+        {
+            SceneManager.LoadScene("Map2Scene4");
+        }
+        if (collision.gameObject.tag == "Inf")
+        {
+            SceneManager.LoadScene("Information");
+        }
+        
+        
     }
 }
