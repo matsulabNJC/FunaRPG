@@ -19,9 +19,9 @@ public class QuizMgr : MonoBehaviour {
 
 	private void  AnswerLabelSet(){
 		//回答文面の作成
-		string[] array = new string[]{ "A+1＝A", "A+A=A" };
+		string[] array = new string[]{ "A+1＝A", "A+A=A","A+B=A" };
 		//ボタンが4つあるのでそれぞれ代入
-		for (int i=1; i<=2 ; i++){
+		for (int i=1; i<=3 ; i++){
 			Text ansLabel = GameObject.Find("Quiz/AnsButton" + i).GetComponentInChildren<Text> ();
 			ansLabel.text = array[i-1];
 		}

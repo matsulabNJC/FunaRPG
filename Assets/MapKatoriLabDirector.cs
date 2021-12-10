@@ -1,8 +1,7 @@
-﻿using System.Collections;
+　﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 // using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class MapKatoriLabDirector : MonoBehaviour
 {
@@ -13,7 +12,8 @@ public class MapKatoriLabDirector : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)){
+      void OnCollisionEnter2D(Collision2D collision){
+       if(collision.gameObject.tag=="Enter8"){
           if (time) {
             GetComponent<AudioSource>().Play();
             time = false;
@@ -22,7 +22,5 @@ public class MapKatoriLabDirector : MonoBehaviour
         Invoke("CallFunction",1.0f);
         }
     }
-    void CallFunction(){
-      SceneManager.LoadScene("KatoriLab");
-    }
+  }   
 }

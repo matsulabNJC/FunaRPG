@@ -13,5 +13,7 @@ public class LaboratoryGameDirector : MonoBehaviour
         {
             SceneManager.LoadScene("LaboratoryQuiz");
         }
+        
     }
+    
 }

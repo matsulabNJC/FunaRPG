@@ -11,9 +11,11 @@ TagManager:
   - Enter4
   - Enter5
   - Enter6
-  - Syokukennki
+  - Enter7
   - Ticket
-  - Ticket_job
+  - Syokukennki
+  - Enter8
+  - Quiz
   layers:
   - Default
   - TransparentFX
@@ -50,7 +52,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: New Layer
-    uniqueID: 332074695
     locked: 0

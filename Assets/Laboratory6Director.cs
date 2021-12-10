@@ -13,4 +13,5 @@ public class Laboratory6Director : MonoBehaviour
             SceneManager.LoadScene("Laboratory6");
         }
     }
+    
 }
