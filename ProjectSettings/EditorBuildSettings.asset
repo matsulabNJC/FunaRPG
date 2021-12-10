@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ticket 2.unity
     guid: 4c1c82352caa9ff4887e58562dc606eb
+  - enabled: 1
+    path: Assets/Scenes/Syokudou_2.unity
+    guid: 699a30910e6924660b8bec62e3eb3a00
   m_configObjects: {}
