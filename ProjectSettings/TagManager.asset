@@ -11,9 +11,14 @@ TagManager:
   - Enter4
   - Enter5
   - Enter6
-  - Syokukennki
-  - Ticket
   - Enter7
+  - Map2Scene
+  - Map2Scene2_1
+  - MapScene2_2
+  - Map2Scene2_2
+  - Map2Scene3_1
+  - Map2Scene3_2
+  - Inf
   layers:
   - Default
   - TransparentFX
@@ -50,7 +55,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: New Layer
-    uniqueID: 332074695
     locked: 0
