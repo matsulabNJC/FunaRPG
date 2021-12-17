@@ -51,5 +51,6 @@ Thumbs.db
 *.pyc
 
 #追加
+Assets/SampleScene.cs
 /Assets/SampleScene.cs
 UserSettings/
