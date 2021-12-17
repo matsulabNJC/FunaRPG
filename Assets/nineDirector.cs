@@ -55,6 +55,10 @@ public class nineDirector : MonoBehaviour
         {
             SceneManager.LoadScene("KatoriLabQuiz");//香取研クイズ
         }
+        if(collision.gameObject.tag=="Mob_1")
+        {
+            SceneManager.LoadScene("Mob_1");//mob1会話
+        }
     }
     
 }

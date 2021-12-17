@@ -35,7 +35,18 @@ public class TwelveDirector : MonoBehaviour
         {
             SceneManager.LoadScene("Information");
         }
-        
+        if (collision.gameObject.tag == "Obasann")
+        {
+            SceneManager.LoadScene("Ticket_Hint_BBA");
+        }
+        if (collision.gameObject.tag == "Enter6")
+        {
+            SceneManager.LoadScene("Syokudou");
+        }
+        if (collision.gameObject.tag == "Ticket")
+        {
+            SceneManager.LoadScene("Quiz_ticket");
+        }
         
     }
 }

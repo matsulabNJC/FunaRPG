@@ -19,6 +19,13 @@ TagManager:
   - Map2Scene3_1
   - Map2Scene3_2
   - Inf
+  - Ticket
+  - Obasann
+  - Ticket_job
+  - Enter8
+  - Quiz
+  - player_tag
+  - Mob_1
   layers:
   - Default
   - TransparentFX
