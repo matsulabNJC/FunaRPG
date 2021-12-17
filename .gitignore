@@ -49,3 +49,7 @@ Thumbs.db
 
 #python bytecode cache, for some plugins.
 *.pyc
+
+#追加
+Assets/SampleScene.cs
+UserSettings/
