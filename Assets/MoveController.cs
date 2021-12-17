@@ -8,7 +8,7 @@ using UnityEngine;
 public class MoveController : MonoBehaviour
 {
     [SerializeField]
-    float SPEED = 1.0f;
+   public static float SPEED = 10.0f;
     private Rigidbody2D rigidBody;
     private Vector2 inputAxis;
 
@@ -16,6 +16,7 @@ public class MoveController : MonoBehaviour
     {
         // オブジェクトに設定しているRigidbody2Dの参照を取得する
         this.rigidBody = GetComponent<Rigidbody2D>();
+        SPEED = MoveController.getPlayerSpeed();
     }
 
     void Update()
@@ -30,5 +31,15 @@ public class MoveController : MonoBehaviour
     {
         // 速度を代入する
         rigidBody.velocity = inputAxis.normalized * SPEED;
+    }
+
+    public static float getPlayerSpeed()
+    {
+        return SPEED;
+    }
+
+    public void Speedchange()
+    {
+        SPEED=SPEED*10;
     }
 }

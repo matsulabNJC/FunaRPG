@@ -5,9 +5,33 @@ using UnityEngine;
 
 public class ButtonScript1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public void OnClick()
+  // private AudioSource startmusic;
+      // private float step_time;
+      bool time;
+  void Start()
+  {
+    time = true;
+      // startmusic = GetComponent<AudioSource>();
+  }
+
+    // public void OnClick()
+    // {
+    //     startmusic.PlayOneShot(startmusic.clip);
+              // SceneManager.LoadScene("SampleScene");
+    // }
+    void Update()
     {
+        if (Input.GetMouseButtonDown(0)){
+          if (time) {
+            GetComponent<AudioSource>().Play();
+            time = false;
+          }
+          Debug.Log("Invokeセットしました。");
+          Invoke("CallFunction",0.6f);
+          }
+      }
+      void CallFunction(){
         SceneManager.LoadScene("SampleScene");
-    }
+      }
+
 }
