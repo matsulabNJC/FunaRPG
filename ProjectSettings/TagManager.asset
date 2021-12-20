@@ -19,6 +19,8 @@ TagManager:
   - Map2Scene3_1
   - Map2Scene3_2
   - Inf
+  - LastQ
+  - QuizLab
   layers:
   - Default
   - TransparentFX

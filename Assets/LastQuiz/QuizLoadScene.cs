@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class JudgeInf : MonoBehaviour {
+public class QuizLoadScene : MonoBehaviour {
 
 	//選択したボタンのテキストラベルと正解のテキストを比較して正誤を判定
     /*public void JudgeAnswer(){
@@ -24,18 +24,11 @@ public class JudgeInf : MonoBehaviour {
 		}
 
 	}*/
-    public void JudgeInfAnswer1(){
-        SceneManager.LoadScene("Tandai");
+    public void JudgeLoadScene(){
+        SceneManager.LoadScene("LastQuiz");
     }
 
-    public void JudgeInfAnswer2(){
-        SceneManager.LoadScene("Transfer");
-    }
-
-    public void JudgeInfAnswer3(){
-        SceneManager.LoadScene("Event");
-    }
+    
 
 
 }
-

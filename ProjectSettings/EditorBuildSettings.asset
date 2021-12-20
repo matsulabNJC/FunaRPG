@@ -84,6 +84,6 @@ EditorBuildSettings:
     path: Assets/Information/Transfer.unity
     guid: e83d23e4626b94c989020e966aaf439d
   - enabled: 1
-    path: Assets/Scenes/Information.unity
+    path: Assets/Scenes/Information_old.unity
     guid: f49d8069f17ca4ccc8e66d777d7bfa76
   m_configObjects: {}
