@@ -140,4 +140,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Information.unity
     guid: 29b25c28bf7e9473f88cd5b8df12461c
+  - enabled: 1
+    path: Assets/Information/Event.unity
+    guid: e0923f6c49f384362af940145a0a6241
   m_configObjects: {}
