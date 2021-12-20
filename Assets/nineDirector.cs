@@ -88,6 +88,10 @@ public class nineDirector : MonoBehaviour
             SceneManager.LoadScene("KomadaInf");
         }
         
+        if(collision.gameObject.tag=="Mob_1")
+        {
+            SceneManager.LoadScene("Mob_1");//mob1会話
+        }
     }
     
 }

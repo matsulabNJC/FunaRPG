@@ -21,6 +21,13 @@ TagManager:
   - Inf
   - LastQ
   - QuizLab
+  - Ticket
+  - Obasann
+  - Ticket_job
+  - Enter8
+  - Quiz
+  - player_tag
+  - Mob_1
   layers:
   - Default
   - TransparentFX

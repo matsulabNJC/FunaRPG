@@ -952,7 +952,7 @@ GameObject:
   - component: {fileID: 720696264}
   - component: {fileID: 720696265}
   - component: {fileID: 720696263}
-  - component: {fileID: 720696264}
+  - component: {fileID: 720696266}
   m_Layer: 0
   m_Name: pipo-charachip021a_0
   m_TagString: Untagged
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 720696255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a723829c85699489e91978b09e9c60de, type: 3}
+  m_Script: {fileID: 11500000, guid: f379eb21b6cdf41dabfd6e470731e04b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &720696265
@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac9076ab6ae741044a5f9cf111afdbc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &720696264
+--- !u!114 &720696266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1163,7 +1163,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 720696255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f379eb21b6cdf41dabfd6e470731e04b, type: 3}
+  m_Script: {fileID: 11500000, guid: a723829c85699489e91978b09e9c60de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &750897775

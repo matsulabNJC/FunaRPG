@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameStartLab : MonoBehaviour {
 
 	//選択したボタンのテキストラベルと正解のテキストを比較して正誤を判定
-    /*public void JudgeAnswer(){
+    public void JudgeAnswer(){
 		//正解のデータをテキストでセットする
 		string answerText = "オシロスコープ";
 		//選択したボタンのテキストラベルを取得する
@@ -23,7 +23,7 @@ public class GameStartLab : MonoBehaviour {
 			Application.LoadLevel ("ResultLab");
 		}
 
-	}*/
+	}
     public void Answer1(){
         SceneManager.LoadScene("SeikaiScene");
     }
