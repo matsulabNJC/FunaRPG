@@ -55,42 +55,41 @@ public class nineDirector : MonoBehaviour
         {
             SceneManager.LoadScene("KatoriLabQuiz");//香取研クイズ
         }
-        if (collision.gameObject.tag == "QuizLab")
+        if(collision.gameObject.tag=="QuizLab")
         {
             SceneManager.LoadScene("LaboratoryQuiz");
         }
-        if (collision.gameObject.tag == "Map2Scene")
+        if(collision.gameObject.tag=="Map2Scene")
         {
             SceneManager.LoadScene("Map2Scene2");
         }
-        if (collision.gameObject.tag == "Map2Scene2_1")
+        if(collision.gameObject.tag=="Map2Scnen2_1")
         {
             SceneManager.LoadScene("Map2Scene3");
         }
-        if (collision.gameObject.tag == "Map2Scene2_2")
+        if(collision.gameObject.tag=="Map2Scnen2_2")
         {
             SceneManager.LoadScene("Map2Scene");
         }
-        if (collision.gameObject.tag == "Map2Scene3_1")
+        if(collision.gameObject.tag=="Map2Scnen3_1")
         {
             SceneManager.LoadScene("Map2Scene4");
         }
-        if (collision.gameObject.tag == "Inf")
+        if(collision.gameObject.tag=="Inf")
         {
             SceneManager.LoadScene("Information");
         }
-        if (collision.gameObject.tag == "LastQ")
+        if(collision.gameObject.tag=="LastQ")
         {
             SceneManager.LoadScene("LastQuizStart");
         }
-        if (collision.gameObject.tag == "InfQuiz")
+        if(collision.gameObject.tag=="InfQuiz")
         {
             SceneManager.LoadScene("KomadaInf");
         }
-        
         if(collision.gameObject.tag=="Mob_1")
         {
-            SceneManager.LoadScene("Mob_1");//mob1会話
+            SceneManager.LoadScene("Mob_1");
         }
     }
     
