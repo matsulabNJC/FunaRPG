@@ -22,7 +22,7 @@ public class TenDirector:MonoBehaviour
         }
         if (collision.gameObject.tag == "Enter6")
         {
-            SceneManager.LoadScene("Syokudou");
+            SceneManager.LoadScene("Syokudou_2");
         }
         if (collision.gameObject.tag == "Ticket")
          {

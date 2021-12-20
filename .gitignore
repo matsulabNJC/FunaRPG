@@ -54,4 +54,5 @@ Thumbs.db
 Assets/SampleScene.cs
 /Assets/SampleScene.cs
 Assets/SampleScene.cs.cp
+*.cp
 UserSettings/

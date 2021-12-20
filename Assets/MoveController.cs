@@ -40,6 +40,13 @@ public class MoveController : MonoBehaviour
 
     public void Speedchange()
     {
-        SPEED=SPEED*10;
+        if (SPEED<30)
+        {
+             SPEED=SPEED+10;
+        }
+        else if(SPEED==30)
+        {
+            SPEED = 30;
+        }
     }
 }
