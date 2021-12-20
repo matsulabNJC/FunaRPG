@@ -20,6 +20,10 @@ public class Annnai : MonoBehaviour
             Text AnnnaiLabel = GameObject.Find ("AnnnaiUI/Panel/AnnnaiLabel").GetComponent<Text> ();
 			AnnnaiLabel.text = "中央門で短大生レベルチェックを受けよう。";
         }
+        if(DataAnnnai.Instance.referer=="InformationQuiz"){
+            Text AnnnaiLabel = GameObject.Find ("AnnnaiUI/Panel/AnnnaiLabel").GetComponent<Text> ();
+			AnnnaiLabel.text = "２限目：２号館の香取研を訪ねよう。";
+        }
     }
 
     // Update is called once per frame
