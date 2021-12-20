@@ -18,11 +18,26 @@ EditorBuildSettings:
     path: Assets/Scenes/KatoriLab.unity
     guid: f8d5b8dbb03bd483892af28988a2520a
   - enabled: 1
+    path: Assets/QuizGame/ResultLabButsu.unity
+    guid: b2dc1b8f528c04b4d82787e85e642d33
+  - enabled: 1
+    path: Assets/Scenes/Quiz_ticket.unity
+    guid: b355f386a9ace774588a924d5c7decfe
+  - enabled: 1
     path: Assets/QuizGame/Quiz.unity
     guid: be19a227c956d428e81f9a10d8059a61
   - enabled: 1
+    path: Assets/Scenes/Syokudou_2.unity
+    guid: 699a30910e6924660b8bec62e3eb3a00
+  - enabled: 1
     path: Assets/QuizGame/Result.unity
     guid: cfc0a5fd9a0a54f2ab3a2c769c19e775
+  - enabled: 1
+    path: Assets/Scenes/MachigaiScene.unity
+    guid: 0e45c347ab6e64cf3a6c133bd2d85111
+  - enabled: 1
+    path: Assets/Scenes/SeikaiScene.unity
+    guid: a08f1b22fe2494d4f8dcb307ce288329
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -30,14 +45,26 @@ EditorBuildSettings:
     path: Assets/QuizGame/Score.unity
     guid: 3509b651f4cb34caf9dc41b7631f7a1b
   - enabled: 1
+    path: Assets/QuizGame/Quiz2.unity
+    guid: 952ed5b9412b54c7dbcc80221cb1e39a
+  - enabled: 1
     path: Assets/Scenes/KatoriLab.unity
     guid: f8d5b8dbb03bd483892af28988a2520a
+  - enabled: 1
+    path: Assets/Scenes/KatoriLabQuizMaru.unity
+    guid: 35ba8a4ae5c4d514b88270b1376eb4bd
   - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: afaa4cc0e19e042d68310023c60ae1ad
   - enabled: 1
+    path: Assets/Scenes/KatoriLabQuiz.unity
+    guid: d915cb34661bd7d4b96c4c6f1885ee60
+  - enabled: 1
     path: "Assets/Scenes/\u30AF\u30EA\u30A2.unity"
     guid: f60655920590540c195d158232dd94ee
+  - enabled: 1
+    path: Assets/Scenes/KatoriLabQuizBatsu.unity
+    guid: 47e4b6753c9b8114ebbcbb0b15fa6563
   - enabled: 1
     path: "Assets/Scenes/\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC.unity"
     guid: 10dc7b5088bc3423596dd4e6970ec9cb
