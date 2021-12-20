@@ -142,7 +142,6 @@ GameObject:
   - component: {fileID: 51156417}
   - component: {fileID: 51156416}
   - component: {fileID: 51156415}
-  - component: {fileID: 51156414}
   - component: {fileID: 51156413}
   m_Layer: 0
   m_Name: pipo-charachip021a_0
@@ -161,18 +160,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f379eb21b6cdf41dabfd6e470731e04b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &51156414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 51156412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bab9e7de51a9d1e4088161068b2a59f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &51156415
