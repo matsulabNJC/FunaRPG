@@ -123,6 +123,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Ticket_Hint_BBA.unity
     guid: 4c1c82352caa9ff4887e58562dc606eb
   - enabled: 1
+    path: Assets/LastQuiz/LastQuizStart.unity
+    guid: 806987e5f19d64db19a489081dba6766
+  - enabled: 1
     path: Assets/Scenes/Quiz_ticket.unity
     guid: b355f386a9ace774588a924d5c7decfe
+  - enabled: 1
+    path: Assets/LastQuiz/LastQuiz.unity
+    guid: a0bfa93fff49a44c6bc3c782984ae69e
+  - enabled: 1
+    path: Assets/LastQuiz/Pass.unity
+    guid: f0935ee046ca2438ab576bdacc72ab69
+  - enabled: 1
+    path: Assets/LastQuiz/Retry.unity
+    guid: 6691985dbe85947478184e8d18d68d57
+  - enabled: 1
+    path: Assets/Scenes/Information.unity
+    guid: 29b25c28bf7e9473f88cd5b8df12461c
   m_configObjects: {}
