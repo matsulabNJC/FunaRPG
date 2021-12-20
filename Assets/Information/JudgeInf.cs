@@ -33,7 +33,7 @@ public class JudgeInf : MonoBehaviour {
     }
 
     public void JudgeInfAnswer3(){
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Event");
     }
 
 

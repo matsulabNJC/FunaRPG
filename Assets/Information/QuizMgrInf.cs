@@ -19,7 +19,7 @@ public class QuizMgrInf : MonoBehaviour {
 
 	private void  AnswerLabelSet(){
 		//回答文面の作成
-		string[] array = new string[]{ "短大について", "編入について" ,"あ"};
+		string[] array = new string[]{ "短大について", "編入について" ,"主な行事について"};
 		//ボタンが4つあるのでそれぞれ代入
 		for (int i=1; i<=3 ; i++){
 			Text ansLabel = GameObject.Find("Quiz/AnsButton" + i).GetComponentInChildren<Text> ();
